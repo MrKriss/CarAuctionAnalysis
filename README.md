@@ -26,6 +26,8 @@ The notebook files in this repository have been generated using the latest IPyth
 
 All code was developed on Python 3.4 and has not been tested on Python 2.x . However there is no need to install Python 3 globally if installing with conda above, as the Python 3 that is installed will be isolated to the specified virtual environment. 
 
+Tested and developed on MacBook Pro, Mid 2010, OS X 10.9.5
+
 # Running the Analysis
 
 The following files are provided in this repository:

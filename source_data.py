@@ -205,6 +205,9 @@ def encode(df_pro, output_file=None):
     class_decoder = np.unique(df_enc['class'])
     df_enc['class'] = np.unique(df_enc['class'], return_inverse=True)[1]
 
+    # Encode NaN as a very high number
+    df_enc.loc[df_enc.mileage.isnull(), 'mileage'] = 9999999
+
     decoder = {'MOT': MOT_decoder, 
                'year': year_decoder, 
                'model': model_decoder, 

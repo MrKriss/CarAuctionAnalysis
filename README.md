@@ -1,11 +1,11 @@
 #Introduction
 
-This analysis is a work in progress as I investage the hammer price that various cars fetched on the website 
+This analysis is a work in progress as I investigate the hammer price that various cars fetched on the website 
 [http://www.centralcarauctions.com](http://www.centralcarauctions.com), which runs online and showroom car auctions. The site keeps a back catalogue of all the cars they have ever sold, and what price they went for. 
 
-The Python code and notbooks in this repository source updated data from this website, and step through the analysis I have performed. 
+The Python code and notebooks in this repository source updated data from this website, and step through the analysis I have performed. 
 
-The work is predominantly exploritory in nature so far, though overall I am interested in looking at the following questions:
+The work is predominantly exploratory in nature so far, though overall I am interested in looking at the following questions:
 
 * What factors influence the hammer price?
 * What models of car keep their value the longest?
@@ -13,8 +13,8 @@ The work is predominantly exploritory in nature so far, though overall I am inte
 
 #Installation
 
-To replicate these results it is important to ensure that the environmnet I ran them in is reproduced on other machines. 
-The easiest way to do this is to use the `conda` commnad line utility from Continuuim Analytics. 
+To replicate these results it is important to ensure that the environment I ran them in is reproduced on other machines. 
+The easiest way to do this is to use the `conda` command line utility from Continuuim Analytics. 
 
 This utility is part of their Python Anaconda Distribution [http://continuum.io/downloads#py34](http://continuum.io/downloads#py34), or can be installed separately as a minimal installation with their Miniconda installer [http://conda.pydata.org/miniconda.html](http://conda.pydata.org/miniconda.html)
 

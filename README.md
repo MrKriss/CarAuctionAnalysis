@@ -57,6 +57,7 @@ The following files are provided in this repository:
     * `decoder.pkl` - A dictionary of arrays that map back from the encoded data to their original values. 
 2. `Car_Auction_EDA.ipnb`  -  Sources the data if necessary using `source_data.py` or loads from disk. Conducts exploratory data analysis on the preprocessed and data generated.
 3. `Car_Auction_Preliminary_Analysis_GBRT.ipynb`  -  Performs preliminary analysis using Gradient Boosting Regression Trees. The loss function is investigated along with deviance and feature importance plots. 
+4. `Analysis_of_Car_Model_Value_Over_Time.ipynb` - Looks into the rate of depreciation of different models of car.
 
 The IPython notebook can be started in the cloned directory by first navigating to it, and running:
 
